@@ -36,18 +36,18 @@ steps:
 
 
 
-  displayName5: 'Build the project 
+  displayName5: 'Build the project' 
 
 
 
-  displayName5: 'Run unit tests
+  displayName5: 'Run unit tests'
   inputs:
     command: 'test'
     
 
 
 
-  displayName6: 'Publish the project 
+  displayName6: 'Publish the project'
   inputs:
     command: 'publish'
 
