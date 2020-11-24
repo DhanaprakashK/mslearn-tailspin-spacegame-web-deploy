@@ -23,36 +23,35 @@ steps:
     verbose: false
 
 
-  displayName: 'Compile Sass assets'
+  displayName1: 'Compile Sass assets'
 
-1
-  displayName: 'Run gulp tasks'
-
-
-  displayName: 'Write build info'
+  displayName2: 'Run gulp tasks'
 
 
-
-  displayName: 'Restore project dependencies'
+  displayName3: 'Write build info'
 
 
 
-  displayName: 'Build the project 
+  displayName4: 'Restore project dependencies'
 
 
 
-  displayName: 'Run unit tests
+  displayName5: 'Build the project 
+
+
+
+  displayName5: 'Run unit tests
   inputs:
     command: 'test'
     
 
 
 
-  displayName: 'Publish the project - $(buildConfiguration)'
+  displayName6: 'Publish the project 
   inputs:
     command: 'publish'
 
 
 
-  displayName: 'Publish Artifact: drop'
+  displayName7: 'Publish Artifact: drop'
   condition: succeeded()
