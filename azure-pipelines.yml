@@ -40,18 +40,18 @@ steps:
 
 
 
-  displayName5: 'Run unit tests'
-  inputs:
-    command: 'test'
+  displayName6: 'Run unit tests'
+  inputs1:
+    command1: 'test'
     
 
 
 
-  displayName6: 'Publish the project'
-  inputs:
-    command: 'publish'
+  displayName7: 'Publish the project'
+  inputs2:
+    command2: 'publish'
 
 
 
-  displayName7: 'Publish Artifact: drop'
+  displayName8: 'Publish Artifact: drop'
   condition: succeeded()
